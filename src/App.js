@@ -6,7 +6,7 @@ import SignUp from "./SignUp";
 import Recovery from "./ResetPassword";
 import { AuthProvider } from "./Auth";
 import PrivateRoute from "./PrivateRoute";
-
+import SimpleLineIcon from "react-simple-line-icons";
 const App = () => {
   return (
     <AuthProvider>
