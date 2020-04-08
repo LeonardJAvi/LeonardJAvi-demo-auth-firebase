@@ -1,0 +1,36 @@
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.hero--scotch {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.hero--scotch:before {
+  background-position: 50%;
+  background-size: 750px;
+  background-image: url("../assets/img/pattern.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400%;
+  width: 100%;
+  display: block;
+  z-index: 0;
+  content: "";
+  opacity: 0.07;
+  pointer-events: none;
+}
+
+.gradient--sunset {
+  background-color: #323b43;
+}

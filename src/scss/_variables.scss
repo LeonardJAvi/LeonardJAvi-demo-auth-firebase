@@ -1,0 +1,39 @@
+//breakpoints for bootstrap version 4
+$breakpoints: (
+  "xs": "(min-width: 0px) and (max-width: 575px)",
+  "sm": "(min-width: 576px) and (max-width: 767px)",
+  "md": "(min-width: 768px) and (max-width: 991px)",
+  "lg": "(min-width: 992px) and (max-width: 1199px)",
+  "xl": "(min-width: 1200px) and (max-width: 1920px)",
+) !default;
+
+//breakpoints for bootstrap verrsion 3
+// $breakpoints: (
+//   'xs': "(min-width: 0px) and (max-width: 767px)",
+//   'sm': "(min-width: 768px) and (max-width: 991px)",
+//   'md': "(min-width: 992px) and (max-width: 1199px)",
+//   'lg': "(min-width: 1200px) and (max-width: 1600px)",
+//   'xl': "(min-width: 1601px) and (max-width: 2048px)",
+// ) !default;
+
+//Fonts
+$font-primary: "Roboto", sans-serif;
+$font-secondary: "Open Sans", sans-serif;
+
+//Background Section
+$bg-color-home: #e8e8e8;
+$bg-color-header: #323b43;
+$bg-color-about: #f3f5f8;
+$bg-color-team: #ffffff;
+$bg-color-newsletter: #f3f5f8;
+$bg-color-contact: #ffffff;
+$bg-color-footer: #323b43;
+
+//Background Form
+$bg-form-contact: #f3f5f8;
+
+//Title General
+$color-item-header: #dbe0e3;
+$color-title: #9cafc3;
+$color-button: #9cafc3;
+$color-border-button: #9cafc3;
