@@ -1,5 +1,5 @@
 {
-  "name": "demo-auth-firebase",
+  "name": "app-demo-auth-firebase",
   "version": "0.1.0",
   "private": true,
   "description": "Application in React.js with Firebase authentication",
